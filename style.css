@@ -27,6 +27,7 @@ p, h1, h2, h3, h4, h5, h6{
 }
 hr{
     border: 3px solid  #bb0f2c!important;
+    color: #bb0f2c!important;
     width: 15%;
     margin-top: 2rem;
     justify-self: center;
