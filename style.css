@@ -1,0 +1,254 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-013.jpg");
+    opacity: 1;
+    background-color: #e2ecf1;
+    color: #1d3557!important;
+    overflow-x: hidden;
+}
+p, h1, h2, h3, h4, h5, h6{
+    color: #1d3557!important;
+    font-weight: 500!important;
+    padding: 0.5%;
+}
+.embed-responsive{
+    width: 70%!important;
+}
+hr{
+    border: 1px solid  #6996b2!important;
+    width: 15%;
+    margin-top: 2rem;
+    justify-self: center;
+}
+.p-hr{
+    border: 0.5px solid darkgrey!important;
+    width: 10%;
+    justify-self: center;
+}
+.navbar{
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    position: fixed!important;
+    background-color: #1d3557!important;
+    font-size: larger;
+    color: white!important;
+    justify-items: right!important;
+}
+.jumbotron, .card, .contact-form, .dark-item{
+    background-color: #e7eef1!important;
+}
+.logo-img{
+    color: white!important;
+}
+button, .btn{
+    color: white!important;
+    background-color: #6996b2!important;
+    border-color: black;
+}
+button:hover, .btn:hover{
+    background-color:#1d3557!important; 
+}
+.title-page{
+    align-content: center;
+    justify-content: center;
+}
+section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #f9fdff;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.section-content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.custom-row{
+    align-items: center;
+}
+.mission-list{
+    list-style: none;
+}
+.mission-row{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    align-content: center;
+    font-weight: 400!important;
+    font-size: x-large;
+    background-color:#1d3557!important;
+    color: white!important;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.mission-text{
+    color: white!important;
+}
+.skills-row{
+    border: darkgray;
+    border-style: solid;
+    border-radius: 2%;
+}
+.contact-form{
+    float: left;
+}
+.carousel{
+    height: 100vh;
+}
+.carousel-inner-testimonies{
+    padding: 5%;
+}
+iframe{
+    margin-bottom: 20%;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    height: 100vh;
+transition: -webkit-transform 0.4s ease;
+transition: transform 0.4s ease;
+transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+-webkit-backface-visibility: visible;
+backface-visibility: hidden!important;
+}
+/*--- Fixed Background Image --*/
+figure {
+position: relative;
+width: 100%;
+height: 60%;
+margin: 0.5%!important;
+padding: 1%;
+}
+.fixed-wrap {
+clip: rect(0, auto, auto, 0);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#fixed {
+background-image: url('img/mac.png');
+position: fixed;
+display: block;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center center;
+-webkit-transform: translateZ(0);
+        transform: translateZ(0);
+will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+iframe{
+    size: 50%; 
+}
+.intro-video{
+    justify-content: center;
+}
+.carousel{
+    width: 80%!important;
+    height: 50%!important;
+    margin-bottom: 1rem;
+}
+.carousel-item{
+    height: 25%!important;
+}
+.carousel-img{
+    height:300px;
+    width:fit-content;
+    margin-bottom: 2.5%!important;
+}
+.footer{
+    font-size: smaller;
+    color: gray!important;
+}
+h1{
+    font-size: 4rem;
+    color: black;
+  }
+  .buffer{
+    height: 10rem;
+  }
+  .btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+  }
+  .btn-xl{
+  padding: 1 rem 2 rem;
+  }
+  .btn-primary{
+      font-size: x-large;
+  }
+  .btn-primary, .btn-outline-success{
+      color: white;
+    background-color: #6996b2;
+    border-color: #1d3578;
+  }
+  .btn-primary:hover, .btn-outline-success:hover{
+      color: rgb(204, 203, 203);
+    background-color: #1d3578;
+    border-color: black;
+    border-width: 2px;
+  }
+  .home-container{
+      background: url(inovacao_foto.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      margin-top: 0%!important;
+      margin-bottom: 0%!important;
+      margin-left: 0%!important;
+      margin-right: 0%!important;
+      align-items: center!important;
+      border-radius: 0%;
+    background-color: rgba(204, 203, 203, 0);
+    padding: 0%;
+  }
+  .text-center{
+    background-color: rgba(204, 203, 203, 0);
+    align-items: center;
+  }
+  .nav-item{
+      color:white!important;
+  }
+  .nav-item:hover{
+    color:rgb(204, 203, 203)!important;
+}
+.testimonies-section{
+    align-items: center!important;
+    align-content: center!important;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.testimonies-carousel{
+    width: 100%!important;
+}
+.card-clients{
+    background-color: transparent!important;
+    border-color: transparent;
+    align-content: center!important;
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+}
+.client-container{
+ margin-left: 10%;
+ margin-right: 10%;
+}
